@@ -6,7 +6,7 @@ end
 
 post '/choice1' do
 	if params[:direction] == "west"
-		erb :___
+		erb :walkwest
 	else
 		erb :___
 	end
