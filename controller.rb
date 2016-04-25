@@ -11,3 +11,11 @@ post '/choice1' do
 		erb :walkeast
 	end
 end
+
+post '/walk' do
+	erb :keepwalking
+end
+
+post '/join' do
+	erb :joingroup
+end
