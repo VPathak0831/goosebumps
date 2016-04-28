@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
 body {
-	background-image: url("<%=@image%>");
+	background-image: url("<%=@websitesettings[0]%>");
 	background-size: cover;
 }
 </style>
@@ -9,13 +9,13 @@ body {
 
 
 <div style= "text-align:center">
-<p><%=@scenario%></p>
+<p><%=@websitesettings[1]%></p>
 </div>
 
 <div style= "text-align:center">
-<a href= <%= "/direction/" + @option1 %> > <%= @option1%> </a>
+<a href= <%= "/direction/" + @websitesettings[2] %> > <%= @websitesettings[2]%> </a>
 <br>
 <br>
 <br>
-<a href= <%= "/direction/" + @option2 %> > <%= @option2%> </a>
+<a href= <%= "/direction/" + @websitesettings[3] %> > <%= @websitesettings[3]%> </a>
 </div>
