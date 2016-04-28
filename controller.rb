@@ -1,7 +1,5 @@
 require 'sinatra'
 
-@websitesettings = [@image, @scenario, @option1, @option2]
-
 get '/' do
 	@image = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQentAEwNfLRg9M-umiLRMdtLPC_LreMNeNACzT3KGYrMpXYgU2oQ"
 	@scenario = "You’re on your way back from a party on Halloween night.  You’re 10 minutes away from breaking curfew.  There’s no way you’ll make it home on time if you Uber.  You need to take a shortcut.  You walk ahead into the woods clutching a broken flashlight and a bag of fun-sized candy, almost as if you are in a trance.  It’s dark in there--so dark you can’t even tell if your eyes are open or shut. To the West, you hear rustling in the bushes.  To the East, you see a light beam.  Which way do you turn?"
