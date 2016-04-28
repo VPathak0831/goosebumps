@@ -1,8 +1,13 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
 <style>
+<<<<<<< HEAD
 <!-- body {
 	background-image: url("<%=@image%>");
+=======
+body {
+	background-image: url("<%=@websitesettings[0]%>");
+>>>>>>> 05af8a3a84749fd0cb9870cb683ac65bc51e12e0
 	background-size: cover;
 } -->
 </style>
@@ -10,14 +15,19 @@
 
 <body>
 <div style= "text-align:center">
-<p><%=@scenario%></p>
+<p><%=@websitesettings[1]%></p>
 </div>
 
 <div style= "text-align:center">
-<a href= <%= "/direction/" + @option1 %> > <%= @option1%> </a>
+<a href= <%= "/direction/" + @websitesettings[2] %> > <%= @websitesettings[2]%> </a>
 <br>
 <br>
 <br>
+<<<<<<< HEAD
 <a href= <%= "/direction/" + @option2 %> > <%= @option2%> </a>
 </div>
 </body>
+=======
+<a href= <%= "/direction/" + @websitesettings[3] %> > <%= @websitesettings[3]%> </a>
+</div>
+>>>>>>> 05af8a3a84749fd0cb9870cb683ac65bc51e12e0
