@@ -32,7 +32,7 @@ get '/direction/:choice' do
 		erb :index
 
 	when "Throw_flashlight"
-		@websitesettings = ["http://www.elkharttruth.com/image/2013/12/31/800x_b0_z/Police-car.jpg", "You hit the raccoon, and it runs away. Yay! The flashlight bounces off of the raccoon and turns on, illuminating a new path. You realize you should’ve checked the battery sooner, but then again, you realize you were just drunk. You follow the new path for 15 minutes and realize you are back in town. A police car shows up, and they take you to the station for breaking curfew. Go back and try again."]
+		@websitesettings = ["http://www.elkharttruth.com/image/2013/12/31/800x_b0_z/Police-car.jpg", "You hit the raccoon, and it runs away. Yay! The flashlight bounces off of the raccoon and turns on, illuminating a new path. You realize you should’ve checked the battery sooner. You follow the new path for 15 minutes and realize you are back in town. A police car shows up, and they take you to the station for breaking curfew. Go back and try again."]
 		erb :ending
 
 	when "Throw_candy"
