@@ -20,7 +20,7 @@ get '/direction/:choice' do
 		erb :ending
 
 	when "Keep_walking"
-		@websitesettings = ["http://images.halloweencostumes.com/products/5094/1-1/adult-bear-costume.jpg", "You find a backpack, and you look through it to find food. You’re hungry, and you ate all those stupid fun sized candies on the walk. You find a protein bar and devour it.  After your binge, you want to find out how many calories you just inhaled so you can enter it into your Fitbit app later.  The label of the protein bar reads “costume shifter,” and you become your costume--a bear. Be careful of what you eat. Go back and try again. "]
+		@websitesettings = ["http://cdn.sneakernews.com/wp-content/uploads/2015/09/dj-khaled-sneaker-collection.jpg", "You find a backpack, and you look through it to find food. You’re hungry, and you ate all those stupid fun sized candies on the walk. You find a protein bar and devour it.  After your binge, you want to find out how many calories you just inhaled so you can enter it into your Fitbit app later.  The label of the protein bar reads “costume shifter,” and you become your costume--a bear. Be careful of what you eat. Go back and try again. "]
 		erb :ending
 
 	when "get_into_car"
