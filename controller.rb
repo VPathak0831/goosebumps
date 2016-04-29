@@ -20,23 +20,23 @@ get '/direction/:choice' do
 		erb :ending
 
 	when "Keep_walking"
-		@websitesettings = ["", "You find a backpack, and you look through it to find food. You’re hungry, and you ate all those stupid fun sized candies on the walk. You find a protein bar and devour it.  After your binge, you want to find out how many calories you just inhaled so you can enter it into your Fitbit app later.  The label of the protein bar reads “costume shifter,” and you become your costume--a bear. Be careful of what you eat. Go back and try again. "]
+		@websitesettings = ["http://images.halloweencostumes.com/products/5094/1-1/adult-bear-costume.jpg", "You find a backpack, and you look through it to find food. You’re hungry, and you ate all those stupid fun sized candies on the walk. You find a protein bar and devour it.  After your binge, you want to find out how many calories you just inhaled so you can enter it into your Fitbit app later.  The label of the protein bar reads “costume shifter,” and you become your costume--a bear. Be careful of what you eat. Go back and try again. "]
 		erb :ending
 
 	when "get_into_car"
-		@websitesettings = ["", "With your hands shaking, you open the door to the car.  “Take me to the closest town,” you say. They don’t acknowledge you, so you hope for the best. It seems you are headed to a town, but upon arrival, you realize you are back where you started. Go back and try again."]
+		@websitesettings = ["http://a57.foxnews.com/global.fncstatic.com/static/managed/img/fn2/travel/876/493/old_woman_driving_istock.jpg?ve=1&tl=1", "With your hands shaking, you open the door to the car.  “Take me to the closest town,” you say. They don’t acknowledge you, so you hope for the best. It seems you are headed to a town, but upon arrival, you realize you are back where you started. Go back and try again."]
 		erb :ending
 
 	when "Walk_away"
-		@websitesettings = ["", "You continue stumbling the road.  Your teeth begin to chatter; it’s getting cold.  You regret going to the party. Suddenly, something crawls out onto the road. The moonlight reflects off the beedy eyes of your worst enemy--the raccoon.", "Throw_flashlight", "Throw_candy"]
+		@websitesettings = ["http://www2.brevard.edu/jefrick/assets/raccoon1.jpg", "You continue stumbling the road.  Your teeth begin to chatter; it’s getting cold.  You regret going to the party. Suddenly, something crawls out onto the road. The moonlight reflects off the beedy eyes of your worst enemy--the raccoon.", "Throw_flashlight", "Throw_candy"]
 		erb :index
 
 	when "Throw_flashlight"
-		@websitesettings = ["", "You hit the raccoon, and it runs away. Yay! The flashlight bounces off of the raccoon and turns on, illuminating a new path. You realize you should’ve checked the battery sooner, but then again, you realize you were just drunk. You follow the new path for 15 minutes and realize you are back in town. A police car shows up, and they take you to the station for breaking curfew. Go back and try again."]
+		@websitesettings = ["http://www.elkharttruth.com/image/2013/12/31/800x_b0_z/Police-car.jpg", "You hit the raccoon, and it runs away. Yay! The flashlight bounces off of the raccoon and turns on, illuminating a new path. You realize you should’ve checked the battery sooner, but then again, you realize you were just drunk. You follow the new path for 15 minutes and realize you are back in town. A police car shows up, and they take you to the station for breaking curfew. Go back and try again."]
 		erb :ending
 
 	when "Throw_candy"
-		@websitesettings = ["", "The raccoon eats the candy and grows to the size of a bear. Its eyes turn an unsettling shade of red, and foam oozes out of its mouth. Congratulations, you played yourself. Go back and try again."]
+		@websitesettings = ["http://www.oodmag.com/wp-content/uploads/2016/01/raccoon-new.jpg", "The raccoon eats the candy and grows to the size of a bear. Its eyes turn an unsettling shade of red, and foam oozes out of its mouth. Congratulations, you played yourself. Go back and try again."]
 		erb :ending
 	end
 end
